@@ -30,12 +30,22 @@ $ py.test test_multiply.py
 
 You'll notice here that divide is the only function that has two tests for it - that's because you'll need to program some exceptional behavior in case the user tries to divide by 0! 
 
-If 0 is passed as a denominator when using this function, instead of an integer, return a string warning the user not to divide by 0.
+If 0 is passed as a denominator when using this function, instead of an integer, return a string warning the user not to divide by 0. You can chose any message you want, for example `return "Invalid value for denominator, cant't divide by 0!"`
+
+```bash
+$ py.test test_divide.py
+```
 
 ### Step 3
 
 * Square
 * Power
-* sqrt
+* Square Root
 
 Rounding out the last three tests are functions dealing with powers. They can be kind of tricky (especially finding the square root!) but you shouldn't have any problem if you review your lesson on operators.
+
+```bash
+$ py.test test_square.py
+$ py.test test_power.py
+$ py.test test_sqrt.py
+```
