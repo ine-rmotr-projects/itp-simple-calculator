@@ -2,13 +2,25 @@
 
 Welcome to your first big project! The goal is to make a simple calculator using everything you've learned up to this point!
 
-### Step 1
+### Step 1:
 
 * Add
 * Subtract
 * Multiply
 
-We've set up 3 functions here that you need to finish. These are fairly straight-forward and shouldn't give you too much trouble, think back to your lesson on operators! 
+We've set up 3 functions here that you need to finish. These are fairly straight-forward and shouldn't give you too much trouble, think back to your lesson on operators!
+##### To run tests, use these commands:
+
+```bash
+# For the add() function
+$ py.test test_add.py
+
+# For the subtract() function
+$ py.test test_subtract.py
+
+# For the mulitply() function
+$ py.test test_multiply.py
+```
 
 ### Step 2
 
