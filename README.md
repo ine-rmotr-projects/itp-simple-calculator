@@ -2,6 +2,8 @@
 
 Welcome to your first big project! The goal is to make a simple calculator using everything you've learned up to this point!
 
+Your job is to implement the code under `calculator.py`; note that we've left only placeholders for the functions. Your job is to write the body of those functions.
+
 ### Step 1:
 
 * Add
