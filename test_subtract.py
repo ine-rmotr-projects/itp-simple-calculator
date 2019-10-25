@@ -2,5 +2,5 @@ from calculator import subtract
 
 
 def test_subtract():
-    results = subtract(10, 7)
-    assert results == 3
+    results = subtract(16, 6)  #changing the value of substract
+    assert results == 10

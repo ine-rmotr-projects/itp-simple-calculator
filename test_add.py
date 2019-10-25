@@ -1,6 +1,6 @@
 from calculator import add
 
 
-def test_add():
-    results = add(1, 2)
-    assert results == 3
+def test_addition(): #changing  the add two addition 
+    results = add(4, 6) #changing the value of add 
+    assert results == 10  #changing the results value 
