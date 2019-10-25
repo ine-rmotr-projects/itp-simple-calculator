@@ -2,5 +2,5 @@ from calculator import square
 
 
 def test_square():
-    results = square(3)
-    assert results == 9
+    results = square(4)   #changing the value of square
+    assert results == 16
