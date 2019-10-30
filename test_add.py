@@ -1,6 +1,6 @@
 from calculator import add
 
 
-def test_add():
-    results = add(1, 2)
-    assert results == 3
+def get_add():     #changing the function name and the variables or values
+    finals = add(12, 13)
+    assert finals == 25
