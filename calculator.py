@@ -17,12 +17,12 @@ def multiply(x, y):
 
 
 def square(x):
-    x * x 
+    return x * x 
 
 
 def power(x, y):
-    x ** y
+    return x ** y
 
 
 def sqrt(x):
-    x ** 0.5
+    return x ** 0.5
