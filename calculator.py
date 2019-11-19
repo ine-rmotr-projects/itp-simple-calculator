@@ -15,7 +15,7 @@ def multiply(x, y):
 
 
 def square(x):
-    return x // 2
+    return x ** 2
 
 
 def power(x, y):
@@ -23,4 +23,4 @@ def power(x, y):
 
 
 def sqrt(x):
-    return x ** 2
+    return x ** 0.5
