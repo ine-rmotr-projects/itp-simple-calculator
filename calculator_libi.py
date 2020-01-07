@@ -8,8 +8,7 @@ def subtract(x, y):
 
 def divide(x, y):
     if y==0:
-        print('Devided by zero')
-        return None 
+        return "Invalid value for denominator, cant't divide by 0!" 
     return x/y
 
 
@@ -26,4 +25,4 @@ def power(x, y):
 
 
 def sqrt(x):
-    pass
+    return x**(1/2)
