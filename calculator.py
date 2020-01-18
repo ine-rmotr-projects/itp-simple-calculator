@@ -10,7 +10,7 @@ def divide(x, y):
     if y!=0:
         return(x/y)
     else:
-        return(None)
+        return("Denominator must be non-zero")
 
 
 def multiply(x, y):
@@ -26,4 +26,4 @@ def power(x, y):
 
 
 def sqrt(x):
-    return(x*0.5)
+    return(x**0.5)
