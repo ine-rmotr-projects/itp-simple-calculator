@@ -7,8 +7,7 @@ def subtract(x, y):
 
 
 def divide(x, y):
-    return x / y
-    if y == 0:
+     if y == 0:
         return "invalid value for denominator, can't divide by 0)
     else:
         return x / y
@@ -26,4 +25,4 @@ def power(x, y):
 
 
 def sqrt(x):
-    return power(x, 0.5)
+    return x ** 0.5
