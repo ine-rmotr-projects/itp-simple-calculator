@@ -10,11 +10,11 @@ def divide(x, y):
     if y != 0:
         return x / y
     else:
-        return print('Invalid value for denominator, can\'t divide by 0!')
+        return 'Invalid value for denominator, can\'t divide by 0!'
 
 
 def multiply(x, y):
-    return x * Y
+    return x * y
 
 
 def square(x):
@@ -26,4 +26,4 @@ def power(x, y):
 
 
 def sqrt(x):
-    return x**-2
+    return x**1/2
