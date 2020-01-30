@@ -10,7 +10,7 @@ def divide(x, y):
     if y != 0:
         return x / y
     else:
-        return print('Invalid value for denominator, can't divide by 0!')
+        return print('Invalid value for denominator, can\'t divide by 0!')
 
 
 def multiply(x, y):
