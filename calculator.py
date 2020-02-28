@@ -26,4 +26,4 @@ def power(x, y):
 
 
 def sqrt(x):
-    x**(1/2)
+    return x**(1/2)
