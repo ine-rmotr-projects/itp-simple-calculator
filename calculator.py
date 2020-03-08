@@ -27,6 +27,3 @@ def power(x, y):
 
 def sqrt(x):
     return x ** 0.5
-
-
-print(multiply(15, 15))
