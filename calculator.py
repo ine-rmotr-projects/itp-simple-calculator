@@ -7,7 +7,10 @@ def subtract(x, y):
 
 
 def divide(x, y):
-    pass
+    try:
+        return x / y
+    except ZeroDivisionError:
+        return "Invalid value for denominator, cant't divide by 0!"
 
 
 def multiply(x, y):
