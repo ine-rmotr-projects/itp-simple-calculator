@@ -22,7 +22,7 @@ def square(x):
 
 
 def power(x, y):
-    pass
+    return x ** y
 
 
 def sqrt(x):
