@@ -18,7 +18,7 @@ def multiply(x, y):
 
 
 def square(x):
-    pass
+    return x * x
 
 
 def power(x, y):
