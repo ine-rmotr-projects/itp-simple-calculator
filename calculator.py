@@ -1,7 +1,7 @@
 import math
 
 def add(x, y):
-    return sum([x, b])
+    return sum([x, y])
 
 
 def subtract(x, y):
@@ -9,7 +9,7 @@ def subtract(x, y):
 
 
 def divide(x, y):
-    if x or y == 0:
+    if y == 0:
         return "Invalid value for denominator, cant't divide by 0!"
     else:
         return x / y
