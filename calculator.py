@@ -7,10 +7,10 @@ def subtract(x, y):
 
 
 def divide(x, y):
-	if y == 0:
-		return "Denominator cannot be 0"
-	else:
-		return x / y
+    if y == 0:
+        return "Denominator cannot be 0"
+    else:
+        return x / y
 
 
 def multiply(x, y):
