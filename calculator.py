@@ -1,26 +1,27 @@
 def add(x, y):
-    pass
+    x + y
 
 
 def subtract(x, y):
-    pass
+    x - y
 
 
 def divide(x, y):
-    pass
+    if y == 0:
+        return 'invalid operation: division by 0'
 
 
 def multiply(x, y):
-    pass
+    return x * y
 
 
 def square(x):
-    pass
+    return x ** 2
 
 
 def power(x, y):
-    pass
+    return x ** y
 
 
 def sqrt(x):
-    pass
+    pow(x,1/2)
