@@ -8,7 +8,7 @@ def subtract(x, y):
 
 def divide(x, y):
     if(y == 0):
-        return(None)
+        return("Invalid value for denominator, cant't divide by 0!")
     else:
         return(x / y)
 
