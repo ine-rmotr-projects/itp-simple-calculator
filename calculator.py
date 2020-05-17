@@ -1,26 +1,31 @@
+import math  
+
 def add(x, y):
-    pass
+    return x + y
 
 
 def subtract(x, y):
-    pass
+    return x - y
 
 
 def divide(x, y):
-    pass
+    if y == 0:
+        return "Invalid value for denominator, cant't divide by 0!"
+    else:
+        return x / y
 
 
 def multiply(x, y):
-    pass
+    return x * y
 
 
 def square(x):
-    pass
+    return round(x ** 2)
 
 
 def power(x, y):
-    pass
+    return round(x ** y)
 
 
 def sqrt(x):
-    pass
+    return round(math.sqrt(x))
