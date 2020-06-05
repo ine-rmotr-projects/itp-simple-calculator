@@ -7,10 +7,10 @@ def subtract(x, y):
 
 
 def divide(x, y):
-    # check if y is 0, there should be a test for that
     if y == 0:
-        return "Invalid value. Can't divide by zero."
-    return x / y
+        return "Can't divide by 0."
+    else:
+        return x / y
 
 
 def multiply(x, y):
@@ -18,12 +18,12 @@ def multiply(x, y):
 
 
 def square(x):
-    return x ** 2  # Alternatives: x * x, pow (x, 2)
+    return x**2
 
 
 def power(x, y):
-    return x ** y
+    return x**y
 
 
 def sqrt(x):
-    return power(x, 1/2)
+    return x**(1/2)
