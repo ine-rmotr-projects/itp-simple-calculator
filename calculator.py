@@ -24,6 +24,6 @@ def square(x):
 def power(x, y):
     return x**y
 
-from math import sqrt as sq
+
 def sqrt(x):
-    return sq(x)
+    return power(x, 1/2)
