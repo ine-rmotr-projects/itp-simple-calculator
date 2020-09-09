@@ -11,7 +11,7 @@ Your job is to implement the code under `calculator.py`; note that we've left on
 * Multiply
 
 We've set up 3 functions here that you need to finish. These are fairly straight-forward and shouldn't give you too much trouble, think back to your lesson on operators!
-##### To run tests, use these commands:
+##### To run tests, use these commands in the command line:
 
 ```bash
 # For the add() function
