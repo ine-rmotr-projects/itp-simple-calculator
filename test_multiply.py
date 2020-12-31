@@ -1,6 +1,6 @@
 from calculator import multiply
 
 
-def test_multiply():
-    results = multiply(2, 3)
-    assert results == 6
+def get_multiply():     #changing in function or variables or in values
+    finals = multiply(8, 2)
+    assert finals == 16
