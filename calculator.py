@@ -1,26 +1,32 @@
+import math
 def add(x, y):
     return x + y
 
 
 def subtract(x, y):
-    pass
+    return x-y
 
 
 def divide(x, y):
-    pass
+    if y==0:
+        return "Denominator cannot be zero at any cost!"
+    else:
+    return x/y
 
 
 def multiply(x, y):
-    pass
+    return x*y
 
 
 def square(x):
-    pass
+    x **= 2
+    return x
 
 
 def power(x, y):
-    pass
-
+    res=x**y
+    return res
 
 def sqrt(x):
-    pass
+    y=math.sqrt(x)
+    return y
