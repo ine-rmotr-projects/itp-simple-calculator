@@ -24,7 +24,7 @@ $ py.test test_subtract.py
 $ py.test test_multiply.py
 ```
 
-### Step 2
+### Step Two
 
 * Divide
 
