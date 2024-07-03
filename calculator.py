@@ -3,24 +3,24 @@ def add(x, y):
 
 
 def subtract(x, y):
-    pass
+    return x -y
 
 
 def divide(x, y):
-    pass
+    return x/y
 
 
 def multiply(x, y):
-    pass
+    x*y
 
 
 def square(x):
-    pass
+    return x^3
 
 
 def power(x, y):
-    pass
+    return x**y
 
 
 def sqrt(x):
-    pass
+    return x ** 0.5
